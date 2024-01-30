@@ -102,7 +102,7 @@ I would like to thank Let's Code Group.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT]() licensed.
+This project is [MIT](https://github.com/mioOleen/To-Do-List/blob/master/LICENSE) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
