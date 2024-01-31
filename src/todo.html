@@ -3,17 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello</title>
+    <title>ToDoList</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxixons.min.css">
-
 </head>
 <body>
     <div class="container">
-        <h1>Today's To Do</h1>
-        <input type="text" id="userInput" placeholder="Add to your list...">
+        <h1>Today's To Do <i class="bx bx-sync" id="binForAll"></i></h1>
+        <input type="text" id="userInput" placeholder="Add to your list..." maxlength="50">
         <button id="btn">add</button>
-        <ul id="list">
-        </ul>
+        <ul id="list"></ul>
     </div>
     
 </body>

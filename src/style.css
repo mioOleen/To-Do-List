@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-  width: 400px;
+  width: 600px;
   padding: 1rem;
   border-radius: 0.3rem;
   background-color: burlywood;
@@ -36,14 +36,14 @@ body {
 #list {
   padding: 0;
   margin-top: 1rem;
+  max-width: 100%;
 }
 
 .item {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  max-width: 100%;
   list-style: none;
-  padding: 0.6rem;
   border: 1px solid lightgray;
   cursor: pointer;
 }
@@ -54,4 +54,12 @@ i {
 
 .linethrough {
   text-decoration: line-through;
+}
+
+.dragged-over {
+  background-color: antiquewhite;
+}
+
+#binForAll {
+  cursor: pointer;
 }
